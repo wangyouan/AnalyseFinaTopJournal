@@ -11,4 +11,13 @@ from .path_info import PathInfo
 
 
 class Constants(URLInfo, PathInfo):
-    pass
+    YEAR = 'year'
+    VOLUME = 'volume'
+    ISSUE = 'issue'
+    MONTH = 'month'
+    DOI = 'doi'
+    TITLE = 'title'
+    ABSTRACT = 'abstract'
+    AUTHOR = 'author'
+    URL = 'url'
+    PAGE = 'page'
