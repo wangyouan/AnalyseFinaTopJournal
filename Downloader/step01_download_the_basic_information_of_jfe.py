@@ -97,3 +97,4 @@ if __name__ == '__main__':
 
     driver.quit()
     result_df.to_pickle(os.path.join(const.TEMP_PATH, '20191216_jfe_article_information.pkl'))
+    result_df.to_excel(os.path.join(const.RESULT_PATH, '20191218_jfe_basic_information.xlsx'), index=False)

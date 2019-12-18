@@ -162,3 +162,4 @@ if __name__ == '__main__':
     driver.quit()
 
     article_info.to_pickle(os.path.join(const.TEMP_PATH, '20191217_rfs_basic_information.pkl'))
+    article_info.to_excel(os.path.join(const.RESULT_PATH, '20191218_rfs_basic_information.xlsx'), index=False)
